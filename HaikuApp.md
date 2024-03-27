@@ -1,12 +1,12 @@
 # Personal Info
-**Full name**: Matthew Curtis Power
-**Timezone**: UTC-06:00
-**Email address**: m13power@gmail.com
-**IRC username** (oftc.net): GenericConfluent
-**Trac username** (dev.haiku-os.org): GenericConfluent
-**Gerrit changes submitted** (review.haiku-os.org): IN PROGRESS
-**GitHub**: https://github.com/GenericConfluent
-**Emergency contact**: ibi.curtis@gmail.com
+**Full name**: Matthew Curtis Power \
+**Timezone**: UTC-06:00 \
+**Email address**: m13power<AT>gmail<DOT>com \
+**IRC username** (oftc.net): GenericConfluent \
+**Trac username** (dev.haiku-os.org): GenericConfluent \
+**Gerrit changes submitted** (review.haiku-os.org): IN PROGRESS \
+**GitHub**: https://github.com/GenericConfluent \
+**GitHub2**: https://github.com/micron-mushroom
 
 # About Working Term
 #### Will you treat Google Summer of Code as full time employment? 
@@ -21,8 +21,10 @@ that's when most other people I know work. So my estimate for the moment is
 `8h` every day five days a week. The baseline I'm expecting is `40h/week`.
 
 #### List all obligations (and their dates) that may take time away from GSoC:
-I may go on a walk. I could also end up going camping for a couple days aswell,
-though I don't expect this to take time away from GSoC so much as 
+I may go on a walk. I could also end up going camping for a couple of days as well,
+though I don't expect this to take time away from GSoC so much as reallocate it,
+since I will probably end up working for fun on the weekends and outside of the 
+hours I outlined above.
 
 #### Are you using Google Summer of Code to fullfill a university requirement ...
 Nope. I just really want to write code this summer and the prospect of being
@@ -30,10 +32,10 @@ paid for it doesn't hurt either.
 
 #### How and when did you first hear about Haiku?
 When I was looking through the org list. I ignored any orgs that were
-looking for people with web/python abilities since I much more enjoy low level
-high level languages. Also: "Haiku is a fast, efficient, easy to use and lean
+looking for people with web/python abilities since I much more enjoy low-level
+high-level languages. Also: "Haiku is a fast, efficient, easy to use and lean
 open source operating system". Maybe it's because I'm a fanatic member of the
-rust cult and "blazingly fast" has been burned into my mind but... if that's
+Rust cult and "blazingly fast" have been burned into my mind but... if that's
 how you describe your project say no more, where can I sign up to work on it?
 
 #### Did you also apply to other GSoC organizations? If so, which is your order of preference? 
@@ -50,26 +52,26 @@ not submit my application.
 3 September 2024
 
 # Introduce yourself. 
-Well, my name is Matthew and I'm just a normal everyday person. It's nice to meet
+Well, my name is Matthew and I'm just a normal, everyday person. It's nice to meet
 you. Code has interested me since I was a wee little lad and so after a year or
 two of having no clue where to start I eventually started jumping around between
 Python, Javascript, and C++. I've been writing code for... about eight years now
-I guess? Time really flies. As for how long I've been writing good code for, I'm
+I guess? Time really flies. As for how long I've been writing good code, I'm
 not fully convinced I've even started.
 
 My problem is that I have next to no experience working on larger projects and 
-in formal/semi-formal environments since all the stuff I do is little toy hobby
-project where timelines don't matter. On the topic of hobbies I like programming,
+in formal/semi-formal environments since all the stuff I do is little hobby
+projects where timelines don't matter. On the topic of hobbies, I like programming,
 piano, and regular exercise. Sometimes I do small competitive programming contests
 for fun with my friends or stuff like game jams and whatnot. I did GMTK last year
-and it was a really neat expereince.
+and it was a really neat experience.
 
-Back in around eigth grade I decided I would try to write an OS for my raspberry pi
+Back in around eighth grade I decided I would try to write an OS for my Raspberry Pi
 and didn't get very far (well makes sense I had a very limited understanding of computer
 architecture at that point and of embedded programming generally). Because of that 
-I have kindof always wanted to do work relating to an OS.
+I have kind of always wanted to do work relating to an OS.
 
-Additionally graphics programming has always really piqued my interest so I've been
+Additionally, graphics programming has always really piqued my interest so I've been
 itching to do a deep dive on it. (Partially because of how bad my experience has been
 running the Wayland with the proprietary NVIDIA drivers.)
 
@@ -82,12 +84,12 @@ can find good information, and what it is that I don't know. Since I think that 
 help me learn, improve, and ultimately deliver my project much better.
 
 # Main
-**Title**: Multiple monitors output in app\_server
-**Description**: See https://www.haiku-os.org/community/gsoc/2024/ideas
+**Title**: Multiple monitors output in app\_server \
+**Description**: See https://www.haiku-os.org/community/gsoc/2024/ideas \
 **Goals**: 
-- Update all Accelerant drivers and the app server so they support multi-monitor.
+- Update all Accelerant drivers and the app server so they support basic side by side multi-monitor.
 - If there is time, update the Screen utility so that the monitors can be repositioned
-relative to eachother
+relative to each other
 
 ## Timeline:
 Community bonding period (May/June)
@@ -133,7 +135,7 @@ While I was figuring out how I wanted to work I realized there isn't a neovim
 port for Haiku and building it seems to be a pain. Since was running Haiku with
 QEMU and libvirt I figured I would just use virtiofs to mount my local copy of the
 on the VM so I could build and test the app\_server on Haiku but not need
-to rewrite a separate configuration for vim. Unfortunately that didn't work because
+to rewrite a separate configuration for vim. Unfortunately, that didn't work because
 as far as I can tell there is no virtiofs driver on Haiku. This project would 
 seek to remedy that.
 
