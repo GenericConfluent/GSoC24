@@ -4,7 +4,7 @@
 **Email address**: m13power<AT>gmail<DOT>com \
 **IRC username** (oftc.net): GenericConfluent \
 **Trac username** (dev.haiku-os.org): GenericConfluent \
-**Gerrit changes submitted** (review.haiku-os.org): IN PROGRESS \
+**Gerrit changes submitted** (review.haiku-os.org): https://review.haiku-os.org/c/haiku/+/7585 \
 **GitHub**: https://github.com/GenericConfluent \
 **GitHub2**: https://github.com/micron-mushroom
 
@@ -21,10 +21,10 @@ that's when most other people I know work. So my estimate for the moment is
 `8h` every day five days a week. The baseline I'm expecting is `40h/week`.
 
 #### List all obligations (and their dates) that may take time away from GSoC:
-I may go on a walk. I could also end up going camping for a couple of days as well,
-though I don't expect this to take time away from GSoC so much as reallocate it,
-since I will probably end up working for fun on the weekends and outside of the 
-hours I outlined above.
+I may go on a walk or running a mountain marathon. I could also end up going 
+camping for a couple of days as well, though I don't expect this to take time 
+away from GSoC so much as reallocate it, since I will probably end up working 
+for fun on the weekends and outside of the hours I outlined above.
 
 #### Are you using Google Summer of Code to fullfill a university requirement ...
 Nope. I just really want to write code this summer and the prospect of being
@@ -39,11 +39,8 @@ Rust cult and "blazingly fast" have been burned into my mind but... if that's
 how you describe your project say no more, where can I sign up to work on it?
 
 #### Did you also apply to other GSoC organizations? If so, which is your order of preference? 
-Looking into Waycrate. Though I'm more inclined to work on Haiku so I may just
-not submit my application.
-
-1. Haiku
-2. Waycrate
+None. I thought about doing Waycrate or CCExtractor, but school cut my time
+short.
 
 #### Estimated last day of classes/exams: 
 26 April 2024
@@ -57,25 +54,35 @@ you. Code has interested me since I was a wee little lad and so after a year or
 two of having no clue where to start I eventually started jumping around between
 Python, Javascript, and C++. I've been writing code for... about eight years now
 I guess? Time really flies. As for how long I've been writing good code, I'm
-not fully convinced I've even started.
+not fully convinced I've even started. I'm at the point now where I don't really
+think it makes sense to list the "languages" I know because the language doesn't
+really matter to me, because I know how to program.
+
+As of the time of this application I'm a first year student at the Univerity of
+Alberta studying Computer Science (technically I'm in the honours program but as
+the word "technically" indicates that's just a technicality).
 
 My problem is that I have next to no experience working on larger projects and 
 in formal/semi-formal environments since all the stuff I do is little hobby
 projects where timelines don't matter. On the topic of hobbies, I like programming,
 piano, and regular exercise. Sometimes I do small competitive programming contests
 for fun with my friends or stuff like game jams and whatnot. I did GMTK last year
-and it was a really neat experience.
+and it was a really neat experience. 
+
+My other problem is that I've spent so much time on the internet that my concept 
+of formal writing has been somewhat erroded. (As you may very well be able to tell.)
+So I do hope you will forgive my informality throughout this application.
 
 Back in around eighth grade I decided I would try to write an OS for my Raspberry Pi
 and didn't get very far (well makes sense I had a very limited understanding of computer
 architecture at that point and of embedded programming generally). Because of that 
-I have kind of always wanted to do work relating to an OS.
+I have since wanted to work on a proper OS.
 
 Additionally, graphics programming has always really piqued my interest so I've been
 itching to do a deep dive on it. (Partially because of how bad my experience has been
 running the Wayland with the proprietary NVIDIA drivers.)
 
-Other things to know: Don't think I can live without nvim and I use Arch BTW. (I'm sorry.) 
+Other things to know: Don't think I can live without vim, and I use Arch BTW. (I'm sorry.) 
 
 # Expectations from Mentors. (What do you expect Haiku's mentors to help you with?)
 Guidance. I learned this when I was younger but nothing slows down progress more
@@ -89,15 +96,16 @@ help me learn, improve, and ultimately deliver my project much better.
 **Goals**: 
 - Update all Accelerant drivers and the app server so they support basic side by side multi-monitor.
 - If there is time, update the Screen utility so that the monitors can be repositioned
-relative to each other
+relative to each other, select whether a screen should be an extension of the desktop or a mirror,
+etc.
 
 ## Timeline:
 Community bonding period (May/June)
 - Scour the web for useful documentation on the hardware
 - Read through the 214 files that make up the accelerant drivers.
 - See what the respective Linux drivers look like for inspiration.
-- Update BScreen
-- radeon
+- Necessary app server updates (Screen, Desktop, etc)
+- radeon (Good place to start since it already has some work done)
 - radeon\_hd
 - virtio
 - framebuffer
@@ -125,34 +133,5 @@ Third month of coding (August/September)
 
 After Google Summer of Code
 - Maybe port nvim
-- Or give my secondary project a try.
+- Writing and XMPP client also really interests me.
 
-# Secondary
-Title: Write a virtiofs driver
-
-## Description
-While I was figuring out how I wanted to work I realized there isn't a neovim
-port for Haiku and building it seems to be a pain. Since was running Haiku with
-QEMU and libvirt I figured I would just use virtiofs to mount my local copy of the
-on the VM so I could build and test the app\_server on Haiku but not need
-to rewrite a separate configuration for vim. Unfortunately, that didn't work because
-as far as I can tell there is no virtiofs driver on Haiku. This project would 
-seek to remedy that.
-
-Goals:
-- Allow Haiku users to mount host directories to their guest VM through virtiofs.
-
-## Timeline
-Community bonding period (May/June)
-- Gather all the relevant information online.
-- Check the linux driver for inspiration.
-
-
-First month of coding (June/July)
-TBD
-
-Second month of coding (July/August)
-TBD
-
-Third month of coding (August/September)
-TBD
