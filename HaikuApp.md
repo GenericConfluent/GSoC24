@@ -90,7 +90,7 @@ than not knowing what you don't know. I really need somebody who can tell me whe
 can find good information, and what it is that I don't know. Since I think that will
 help me learn, improve, and ultimately deliver my project much better.
 
-# Main
+# Proposal
 **Title**: Multiple monitors output in app\_server \
 **Description**: See https://www.haiku-os.org/community/gsoc/2024/ideas \
 **Goals**: 
